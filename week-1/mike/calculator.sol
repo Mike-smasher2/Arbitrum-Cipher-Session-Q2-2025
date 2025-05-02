@@ -26,8 +26,8 @@ contract calculator {
     return result;
     }
 
-    function storeResult(uint)public {
-    result = result;
+    function storeResult(uint _answer)public {
+    result = _answer;
     }
 
     function getLastResult()public view returns  (uint){
